@@ -15,8 +15,12 @@ print(favorite_color)
 favorite_number = input("what is your favorite number? ")
 print(favorite_number)
 # 5. Print out the information in a sentence
-sentence = input("name, age, favorite_color, favorite_number? ")
-print(sentence)
+name = " ayoub"
+age = "18"
+favorite_color= "rojo"
+favorite_number = "5"
+
+print(f"name is (name),age (age), favorite_color (favorite_color), favorite_number (favorite_number)" )
 
 # 6. Multiply the user's favorite number by 10 and print out the result
 operation = float( number )*10
